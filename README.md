@@ -35,23 +35,35 @@ A template repo to act as skeleton for any python package
    make test
    ```
 
-5.  You can use the dist command to build distributables
+5. You can use the dist command to build distributables
 
    ```bash
    make dist
    ```
 
-6.  Commands have been added for test deployment to testpypi as well as pypi
+6. Commands have been added for test deployment to testpypi as well as pypi
 
    ```bash
    make testdeploy
    ```
 
-   You'll need a pypi account before you deploy it to pypi
+   > You'll need a pypi account before you deploy it to pypi
 
    ```bash
    make deploy
    ```
 
-   
+7.  If you do deploy to pypi then you can install this package for use in other projects using
+
+   ```bash
+   pip install <package>
+   ```
+
+   you can directly install from github as well
+
+   ```
+   pip install git+https://github.com/TheForeverLost/PythonPackageSkeleton.git#egg=sample
+   ```
+
+   replace your repo link and package name
 

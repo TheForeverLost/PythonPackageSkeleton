@@ -4,6 +4,8 @@
 
 A template repo to act as skeleton for any python package
 
+Refer [Packaging python](https://packaging.python.org/guides) to understand python packages and configurations in detail
+
 ### Installation & Usage
 
 1. Clone the repository or [use this template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) when creating repository
